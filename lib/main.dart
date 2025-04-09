@@ -4,7 +4,7 @@ void main() {
   runApp(
     const MaterialApp(
       home: Scaffold(
-        body: QuestionsAppContainer(Color.fromARGB(255, 78, 13, 151), Color.fromARGB(255, 107, 15, 168)),
+        body: HomeAppContainer(Color.fromARGB(255, 78, 13, 151), Color.fromARGB(255, 107, 15, 168)),
       ),
     ),
   );
@@ -13,8 +13,8 @@ void main() {
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
 
-class QuestionsAppContainer extends StatelessWidget {
-  const QuestionsAppContainer(this.color1, this.color2, {super.key});
+class HomeAppContainer extends StatelessWidget {
+  const HomeAppContainer(this.color1, this.color2, {super.key});
 
   final Color color1;
   final Color color2;                                    
