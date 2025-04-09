@@ -39,14 +39,11 @@ class QuestionsAppContainer extends StatelessWidget {
               "Learn Flutter the fun way",
               style: TextStyle(fontSize: 30, color: Colors.white, ),
             ),
+            const SizedBox(height: 30),
             OutlinedButton(
               onPressed: null,
-              style: ButtonStyle(
-                shape: WidgetStateProperty.all(
-                  RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(30.0),
-                  ),
-                ),
+              style: OutlinedButton.styleFrom(
+                foregroundColor: Colors.white,
               ),
               child: const Text(
                 'Start Quiz',
