@@ -1,5 +1,6 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 class HomeAppContainer extends StatelessWidget {
@@ -21,7 +22,7 @@ class HomeAppContainer extends StatelessWidget {
             const SizedBox(height: 80),
             Text(
               "Learn Flutter the fun way",
-              style: TextStyle(fontSize: 30, color: Colors.white),
+              style: GoogleFonts.lato(fontSize: 30, color: Colors.white),
             ),
             const SizedBox(height: 30),
             OutlinedButton.icon(
